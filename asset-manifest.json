@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kontak-ku/static/css/main.5f361e03.chunk.css",
+    "main.js": "/kontak-ku/static/js/main.69e614e6.chunk.js",
+    "main.js.map": "/kontak-ku/static/js/main.69e614e6.chunk.js.map",
+    "runtime-main.js": "/kontak-ku/static/js/runtime-main.f65ae1b0.js",
+    "runtime-main.js.map": "/kontak-ku/static/js/runtime-main.f65ae1b0.js.map",
+    "static/js/2.51fa8f5b.chunk.js": "/kontak-ku/static/js/2.51fa8f5b.chunk.js",
+    "static/js/2.51fa8f5b.chunk.js.map": "/kontak-ku/static/js/2.51fa8f5b.chunk.js.map",
+    "index.html": "/kontak-ku/index.html",
+    "precache-manifest.d2ccbf08ab0a8c01ba0880847f913f91.js": "/kontak-ku/precache-manifest.d2ccbf08ab0a8c01ba0880847f913f91.js",
+    "service-worker.js": "/kontak-ku/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/kontak-ku/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.51fa8f5b.chunk.js.LICENSE.txt": "/kontak-ku/static/js/2.51fa8f5b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/kontak-ku/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f65ae1b0.js",
+    "static/js/2.51fa8f5b.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.69e614e6.chunk.js"
+  ]
+}
