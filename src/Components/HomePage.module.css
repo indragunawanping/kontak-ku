@@ -1,0 +1,62 @@
+@media (min-width: 500px) {
+    .ContactContainer {
+        max-width: 50%;
+    }
+
+    .ContactList {
+        margin-bottom: 7vh !important;
+    }
+}
+
+@media (max-width: 499px) {
+    .Float {
+        position: fixed;
+        width: 7vh;
+        height: 7vh;
+        bottom: 3vh;
+        right: 5vh;
+        color: #FFF;
+    }
+}
+
+.Name {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 85%;
+    text-overflow: ellipsis;
+}
+
+.Float {
+    height: 7vh;
+    width: 7vh;
+    margin: 4vh auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+}
+
+.ContactContainer {
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.Logo {
+    height: 20vh;
+    padding-top: 6vh;
+    padding-bottom: 3vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.ContactList {
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: 50vh;
+    padding-right: 20px !important;
+}
+
+
