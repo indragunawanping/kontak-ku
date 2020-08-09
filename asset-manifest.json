@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kontak-ku/static/css/main.10e9d663.chunk.css",
-    "main.js": "/kontak-ku/static/js/main.49c33dd4.chunk.js",
-    "main.js.map": "/kontak-ku/static/js/main.49c33dd4.chunk.js.map",
+    "main.js": "/kontak-ku/static/js/main.99c042e3.chunk.js",
+    "main.js.map": "/kontak-ku/static/js/main.99c042e3.chunk.js.map",
     "runtime-main.js": "/kontak-ku/static/js/runtime-main.f65ae1b0.js",
     "runtime-main.js.map": "/kontak-ku/static/js/runtime-main.f65ae1b0.js.map",
     "static/js/2.80da00f9.chunk.js": "/kontak-ku/static/js/2.80da00f9.chunk.js",
     "static/js/2.80da00f9.chunk.js.map": "/kontak-ku/static/js/2.80da00f9.chunk.js.map",
     "index.html": "/kontak-ku/index.html",
-    "precache-manifest.c4da966a9811068cd673392b480eaa2f.js": "/kontak-ku/precache-manifest.c4da966a9811068cd673392b480eaa2f.js",
+    "precache-manifest.9dfdd7a3da6cbd6bc65fd66360e1f601.js": "/kontak-ku/precache-manifest.9dfdd7a3da6cbd6bc65fd66360e1f601.js",
     "service-worker.js": "/kontak-ku/service-worker.js",
     "static/css/main.10e9d663.chunk.css.map": "/kontak-ku/static/css/main.10e9d663.chunk.css.map",
     "static/js/2.80da00f9.chunk.js.LICENSE.txt": "/kontak-ku/static/js/2.80da00f9.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f65ae1b0.js",
     "static/js/2.80da00f9.chunk.js",
     "static/css/main.10e9d663.chunk.css",
-    "static/js/main.49c33dd4.chunk.js"
+    "static/js/main.99c042e3.chunk.js"
   ]
 }
