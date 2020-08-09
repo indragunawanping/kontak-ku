@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51c350325d37b7d39ccb4c668cbde4d8",
+    "revision": "557c9b959f50454065cac320ff21dcfc",
     "url": "/kontak-ku/index.html"
   },
   {
-    "revision": "8db3563d0b97c41b8d03",
-    "url": "/kontak-ku/static/css/main.10e9d663.chunk.css"
+    "revision": "c6b2e7e1fd53167c006b",
+    "url": "/kontak-ku/static/css/main.5859bf82.chunk.css"
   },
   {
-    "revision": "a6da8380fa2d1c7136e1",
-    "url": "/kontak-ku/static/js/2.80da00f9.chunk.js"
+    "revision": "f8f1f91fd57f481dd3bf",
+    "url": "/kontak-ku/static/js/2.c53a6904.chunk.js"
   },
   {
     "revision": "5bd09eb7f2cf4d145d532d862be18942",
-    "url": "/kontak-ku/static/js/2.80da00f9.chunk.js.LICENSE.txt"
+    "url": "/kontak-ku/static/js/2.c53a6904.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8db3563d0b97c41b8d03",
-    "url": "/kontak-ku/static/js/main.49c33dd4.chunk.js"
+    "revision": "c6b2e7e1fd53167c006b",
+    "url": "/kontak-ku/static/js/main.474d21dc.chunk.js"
   },
   {
     "revision": "786abe9450b74d731bb6",

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/kontak-ku/static/css/main.10e9d663.chunk.css",
-    "main.js": "/kontak-ku/static/js/main.49c33dd4.chunk.js",
-    "main.js.map": "/kontak-ku/static/js/main.49c33dd4.chunk.js.map",
+    "main.css": "/kontak-ku/static/css/main.5859bf82.chunk.css",
+    "main.js": "/kontak-ku/static/js/main.474d21dc.chunk.js",
+    "main.js.map": "/kontak-ku/static/js/main.474d21dc.chunk.js.map",
     "runtime-main.js": "/kontak-ku/static/js/runtime-main.f65ae1b0.js",
     "runtime-main.js.map": "/kontak-ku/static/js/runtime-main.f65ae1b0.js.map",
-    "static/js/2.80da00f9.chunk.js": "/kontak-ku/static/js/2.80da00f9.chunk.js",
-    "static/js/2.80da00f9.chunk.js.map": "/kontak-ku/static/js/2.80da00f9.chunk.js.map",
+    "static/js/2.c53a6904.chunk.js": "/kontak-ku/static/js/2.c53a6904.chunk.js",
+    "static/js/2.c53a6904.chunk.js.map": "/kontak-ku/static/js/2.c53a6904.chunk.js.map",
     "index.html": "/kontak-ku/index.html",
-    "precache-manifest.c4da966a9811068cd673392b480eaa2f.js": "/kontak-ku/precache-manifest.c4da966a9811068cd673392b480eaa2f.js",
+    "precache-manifest.13c732d42d9d70ea1a47007357a73058.js": "/kontak-ku/precache-manifest.13c732d42d9d70ea1a47007357a73058.js",
     "service-worker.js": "/kontak-ku/service-worker.js",
-    "static/css/main.10e9d663.chunk.css.map": "/kontak-ku/static/css/main.10e9d663.chunk.css.map",
-    "static/js/2.80da00f9.chunk.js.LICENSE.txt": "/kontak-ku/static/js/2.80da00f9.chunk.js.LICENSE.txt",
+    "static/css/main.5859bf82.chunk.css.map": "/kontak-ku/static/css/main.5859bf82.chunk.css.map",
+    "static/js/2.c53a6904.chunk.js.LICENSE.txt": "/kontak-ku/static/js/2.c53a6904.chunk.js.LICENSE.txt",
     "static/media/kontak-ku-logo.webp": "/kontak-ku/static/media/kontak-ku-logo.0e00751a.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.f65ae1b0.js",
-    "static/js/2.80da00f9.chunk.js",
-    "static/css/main.10e9d663.chunk.css",
-    "static/js/main.49c33dd4.chunk.js"
+    "static/js/2.c53a6904.chunk.js",
+    "static/css/main.5859bf82.chunk.css",
+    "static/js/main.474d21dc.chunk.js"
   ]
 }
