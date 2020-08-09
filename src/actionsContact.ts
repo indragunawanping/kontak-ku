@@ -4,10 +4,9 @@ import { AnyAction } from "redux";
 import { ThunkDispatch } from "redux-thunk";
 import { Contact, ErrorModalProps, HttpCall, HttpCallMethod, HttpCallStatus } from "./state";
 import { addNewHttpCall, sendHttpRequest, updateHttpCallStatus } from "./actionsHttp";
+import { UPDATE_ERROR_MODAL } from "./actions";
 
-export const UPDATE_ERROR_MODAL = "UPDATE_ERROR_MODAL";
 export const UPDATE_CONTACT_LIST = "UPDATE_CONTACT_LIST";
-export const ADD_NEW_CONTACT = "ADD_NEW_CONTACT";
 export const UPDATE_CURRENT_CONTACT = "UPDATE_CURRENT_CONTACT";
 
 export const UPDATE_FETCHING_CONTACT_STATUS = "UPDATE_FETCHING_CONTACT_STATUS";
@@ -346,7 +345,7 @@ export const deleteContact = (contactId: string, succesfulRedirection: () => voi
           .then(() => {
             dispatch(updateHttpCallStatus(newCallId, HttpCallStatus.SUCCESSFUL));
             dispatch(updateDeletingContactDetailStatus(false));
-            if(succesfulRedirection) {
+            if (succesfulRedirection) {
               succesfulRedirection();
             }
           });
@@ -376,7 +375,7 @@ export const deleteContact = (contactId: string, succesfulRedirection: () => voi
       if (errorModalStatus.content) {
         dispatch(updateErrorModalStatus(errorModalStatus));
       }
-      if(succesfulRedirection) {
+      if (succesfulRedirection) {
         succesfulRedirection();
       }
     };
