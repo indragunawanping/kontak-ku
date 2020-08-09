@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cb3dfb01d75d78e34a396a1c0aa6186",
+    "revision": "51c350325d37b7d39ccb4c668cbde4d8",
     "url": "/kontak-ku/index.html"
   },
   {
-    "revision": "489c2725d9931ddcc2ae",
+    "revision": "8db3563d0b97c41b8d03",
     "url": "/kontak-ku/static/css/main.10e9d663.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kontak-ku/static/js/2.80da00f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "489c2725d9931ddcc2ae",
-    "url": "/kontak-ku/static/js/main.99c042e3.chunk.js"
+    "revision": "8db3563d0b97c41b8d03",
+    "url": "/kontak-ku/static/js/main.49c33dd4.chunk.js"
   },
   {
     "revision": "786abe9450b74d731bb6",

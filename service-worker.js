@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kontak-ku/precache-manifest.9dfdd7a3da6cbd6bc65fd66360e1f601.js"
+  "/kontak-ku/precache-manifest.c4da966a9811068cd673392b480eaa2f.js"
 );
 
 self.addEventListener('message', (event) => {
