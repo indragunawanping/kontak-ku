@@ -16,14 +16,22 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
   const renderContactList = () => {
     let contactList: JSX.Element[] = [];
 
-    for (const contact of props.contacts) {
+    if (props.contacts.length > 0) {
+      for (const contact of props.contacts) {
+        contactList.push(
+          <List.Item onClick={() => props.handleContactClick(contact.id)} key={contact.id}>
+            <Image avatar src={contact.photo}/>
+            <List.Content className={styles.Name}>
+              <List.Header>{contact.firstName} {contact.lastName}</List.Header>
+            </List.Content>
+          </List.Item>
+        )
+      }
+    } else {
       contactList.push(
-        <List.Item onClick={() => props.handleContactClick(contact.id)} key={contact.id}>
-          <Image avatar src={contact.photo}/>
-          <List.Content className={styles.Name}>
-            <List.Header>{contact.firstName} {contact.lastName}</List.Header>
-          </List.Content>
-        </List.Item>
+        <div className={styles.NoContact}>
+          No contact yet.
+        </div>
       )
     }
 
@@ -40,7 +48,8 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
             renderContactList()
         }
       </List>
-      <Button size='big' circular color='violet' icon='add user' className={styles.Float} onClick={props.handleAddButtonClick}/>
+      <Button size='big' circular color='violet' icon='add user' className={styles.Float}
+              onClick={props.handleAddButtonClick}/>
     </div>
   )
 };
