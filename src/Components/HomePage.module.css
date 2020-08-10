@@ -59,7 +59,11 @@
     padding-right: 20px !important;
 }
 
-.NoContact{
+.LoadingHomePage {
+    padding-left: 20px;
+}
+
+.NoContact {
     text-align: center;
     padding-left: 20px;
 }

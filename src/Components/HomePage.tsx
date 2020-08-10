@@ -29,7 +29,7 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
       }
     } else {
       contactList.push(
-        <div className={styles.NoContact}>
+        <div className={styles.NoContact} key={'no-contact'}>
           No contact yet.
         </div>
       )
@@ -44,7 +44,10 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
       <List selection divided verticalAlign='middle' className={styles.ContactList} size='big'>
         {
           props.isFetchingContact ?
-            <LoadingComponent/> :
+            <div className={styles.LoadingHomePage}>
+              <LoadingComponent/>
+            </div>
+            :
             renderContactList()
         }
       </List>
